@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flash report</title>
+    <link rel="stylesheet" href="flash_login.css">
+
+    <link href="https://db.onlinewebfonts.com/c/4baee4a2550da10078fd0d6dd9440bc1?family=MTN+Brighter+Sans+Regular"
+        rel="stylesheet" type="text/css" />
+    <script src="flash_login.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header-section">
+            <header>
+                <h1>Flash report</h1>
+            </header>
+        </div>
+
+
+        <!-- login form -->
+
+        <div class="login-wrapper">
+            <div class="login-container">
+                <div class="login-header">
+                    <h1>Login</h1>
+                </div>
+
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="name">Names</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name">
+                        <div class="error-message" id="nameError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        <div class="error-message" id="phoneError"></div>
+                    </div>
+
+                    <div class="form-group password-input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password">
+                        <span class="password-toggle" id="togglePassword">👁️</span>
+                        <div class="error-message" id="passwordError"></div>
+                    </div>
+
+                    <button type="submit" class="login-button">Login</button>
+                </form>
+
+                <div class="signup-link">
+                    Don't have an account? <a href="#">Signup</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- end login form -->
+
+    </div>
+    <script src="flash_login.js">
+        </script>
+    </body>
+    </html>
