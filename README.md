@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # FlashReport
 
 FlashReport is a web application that enables citizens to report corruption incidents and request government interventions. The platform allows users to create, manage, and track reports with location data, media attachments, and real-time status updates.
